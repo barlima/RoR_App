@@ -5,8 +5,8 @@ class ApplicationController < ActionController::Base
     render html: "404!"
   end
 
-def goodbye
-  render html: "Bad gateway"
-end
+  def goodbye
+    render html: "Bad gateway"
+  end
 
 end
